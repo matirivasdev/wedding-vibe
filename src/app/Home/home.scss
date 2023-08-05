@@ -1,0 +1,157 @@
+.home-container{
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+
+  .item {
+    width: 400px;
+    max-width: 90% ;
+    display: inline-block;
+    margin-top: 2rem;
+    filter: grayscale(100%);
+
+    &:hover {
+      filter: none;
+      transform: scale(1, 1) rotate(0deg) !important;
+      transition: all 0.35s;
+    }
+
+    .polaroid {
+      background: #fff;
+      padding: 1rem;
+      box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+
+      &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        transition: all 0.35s;
+      }
+
+      &:nth-of-type(1) {
+        transform: scale(0.8, 0.8) rotate(5deg);
+        transition: all 0.35s;
+
+        &:before {
+          transform: rotate(6deg);
+          bottom: 30px;
+          right: 12px;
+          box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+        }
+      }
+
+      &:hover {
+        filter: none;
+        transform: scale(1, 1) rotate(0deg) !important;
+        transition: all 0.35s;
+
+        &:before {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          transform: rotate(0deg);
+          box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
+          transition: all 0.35s;
+        }
+      }
+      
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+      .caption {
+        font-size: 1.8rem;
+        text-align: center;
+        line-height: 2em;
+      }
+    }
+  }
+
+  .names-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    margin-bottom: 1rem;
+
+    .name {
+      text-align: center;
+      font-family: "Alex Brush";
+      margin: 0;
+    }
+  }
+
+  .header-contianer {
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+
+  .frases-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .frase {
+      flex-wrap: wrap;
+      text-align: center;
+      font-family: "Sofia";
+      font-size: 24px;
+    }
+    .frase2 {
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 32px;
+    }
+
+    .frase3 {
+      flex-wrap: wrap;
+      text-align: center;
+      font-family: "Noto Serif Vithkuqi";
+    }
+
+    .center {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  }
+
+  .dates-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+    .dia {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      .line {
+        width: 100px;
+        border-bottom-width: medium;
+      }
+    }
+
+    .full-line {
+      width: 100%;
+      border-bottom-width: medium;
+      margin-top: 1rem;
+    }
+
+    .fecha {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

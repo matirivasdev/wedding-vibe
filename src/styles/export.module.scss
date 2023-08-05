@@ -1,0 +1,19 @@
+@use 'sass:math';
+@import "variables";
+
+// Export
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  backgroundColor: $background-color;
+  info: $info;
+  success: $success;
+  danger: $red;
+  textPrimary: $text-primary;
+  textSecondary: $text-secondary;
+  textWarning: $text-warning;
+  contrastTextPrimary: $white;
+  buttonTextWeightFont: $buton-text-font;
+  dividerColor: $divider-color;
+  fontFamily: $font-family-base;
+}

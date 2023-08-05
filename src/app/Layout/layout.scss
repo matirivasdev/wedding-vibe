@@ -1,0 +1,25 @@
+@use 'sass:math';
+@import "src/styles/variables";
+
+body {
+  font-family: $font-family-base;
+}
+
+#root {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  background-image: url('/assets/background.jpg');
+}
