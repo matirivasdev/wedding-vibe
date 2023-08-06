@@ -1,12 +1,10 @@
 {
   "files": {
     "main.css": "/wedding-vibe/static/css/main.92989c35.css",
-    "main.js": "/wedding-vibe/static/js/main.21a673ca.js",
+    "main.js": "/wedding-vibe/static/js/main.ca0e49b2.js",
     "static/css/468.6b86f743.chunk.css": "/wedding-vibe/static/css/468.6b86f743.chunk.css",
     "static/js/468.22a33f92.chunk.js": "/wedding-vibe/static/js/468.22a33f92.chunk.js",
-    "static/js/223.137c9ebe.chunk.js": "/wedding-vibe/static/js/223.137c9ebe.chunk.js",
-    "static/js/151.5a9ae735.chunk.js": "/wedding-vibe/static/js/151.5a9ae735.chunk.js",
-    "static/js/491.969ac094.chunk.js": "/wedding-vibe/static/js/491.969ac094.chunk.js",
+    "static/js/561.181b7ae8.chunk.js": "/wedding-vibe/static/js/561.181b7ae8.chunk.js",
     "static/media/cant-help.mp3": "/wedding-vibe/static/media/cant-help.916670ccf3603bb23ce8.mp3",
     "static/media/eucalipto.png": "/wedding-vibe/static/media/eucalipto.cc78caec98bfdbfe132a.png",
     "static/media/2011.png": "/wedding-vibe/static/media/2011.69153ca11fe328e99e9f.png",
@@ -21,15 +19,13 @@
     "static/media/church2.png": "/wedding-vibe/static/media/church2.8058b62f01a4ebe6d965.png",
     "index.html": "/wedding-vibe/index.html",
     "main.92989c35.css.map": "/wedding-vibe/static/css/main.92989c35.css.map",
-    "main.21a673ca.js.map": "/wedding-vibe/static/js/main.21a673ca.js.map",
+    "main.ca0e49b2.js.map": "/wedding-vibe/static/js/main.ca0e49b2.js.map",
     "468.6b86f743.chunk.css.map": "/wedding-vibe/static/css/468.6b86f743.chunk.css.map",
     "468.22a33f92.chunk.js.map": "/wedding-vibe/static/js/468.22a33f92.chunk.js.map",
-    "223.137c9ebe.chunk.js.map": "/wedding-vibe/static/js/223.137c9ebe.chunk.js.map",
-    "151.5a9ae735.chunk.js.map": "/wedding-vibe/static/js/151.5a9ae735.chunk.js.map",
-    "491.969ac094.chunk.js.map": "/wedding-vibe/static/js/491.969ac094.chunk.js.map"
+    "561.181b7ae8.chunk.js.map": "/wedding-vibe/static/js/561.181b7ae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92989c35.css",
-    "static/js/main.21a673ca.js"
+    "static/js/main.ca0e49b2.js"
   ]
 }

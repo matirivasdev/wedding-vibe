@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwedding_vibe=self.webpackChunkwedding_vibe||[]).push([[223],{2223:function(n,e,i){i.r(e),i.d(e,{default:function(){return r}});var t=i(9373),u=(i(2791),i(184)),r=function(){return(0,u.jsx)(t.Z,{variant:"contained",children:"Home"})}}}]);
-//# sourceMappingURL=223.137c9ebe.chunk.js.map
