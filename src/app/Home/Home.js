@@ -27,7 +27,7 @@ const Home = ({history}) => {
   const ceremoniaURL = 'https://goo.gl/maps/UnbH85szwp83cNn26';
   const fiestaURL = 'https://goo.gl/maps/mQ55rV3BpS1hn53YA';
   const encodedText = 'Buenas%21+%F0%9F%91%8B%F0%9F%8F%BB+Quer%C3%ADa+confirmarte+mi+asistencia+a+la+boda+de+%2ARUTH+%26+NICO%2A+%F0%9F%91%B0%F0%9F%8F%BB%F0%9F%A4%B5%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8F%2C+mi+nombre+es';
-  const confirmacionURL = `https://wa.me/595986183333?text=${encodedText}`;
+  const confirmacionURL = `https://wa.me/595981906642?text=${encodedText}`;
   const gonzalezGimenez = 'https://www.gonzalezgimenez.com.py/lista-bodas/ver/1224';
 
   const handlePlayMusic = () => {
