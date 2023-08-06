@@ -16,7 +16,9 @@ import cantHelp from 'assets/cant-help.mp3';
 import dosmilonce from 'assets/2011.png';
 import pedido from 'assets/pedido.jpeg';
 import dosmilveinte from 'assets/2020.jpeg';
-import header from 'assets/Header.png';
+import HOJA from 'assets/Hoja.png';
+import CDERECHA from 'assets/cizquierda.png';
+import eucalipto from 'assets/eucalipto.png';
 
 const Home = ({history}) => {
   const [mostrarCuentaBancaria, setMostrarCuentaBancaria] = React.useState(false);
@@ -38,10 +40,6 @@ const Home = ({history}) => {
 
   return (
     <div className='home-container'>
-      <Image 
-        source={header}
-        width='100%'
-      />
       {playStatus === Sound.status.PLAYING &&
         <Fab color="primary" aria-label="add" onClick={handleStopMusic} sx={{ position: "absolute", bottom: 16, right: 16 }}>
           <PauseIcon />
@@ -58,14 +56,21 @@ const Home = ({history}) => {
         playStatus={playStatus}
         autoLoad={true}
       />
-      <div className='header-container'>
-        <Typography 
-          color="primary"
-          variant="h4"
-          className='frase3'>
-          ¡ Nos Casamos !
-        </Typography>
-      </div>
+      <Image
+        className='hoja-top'
+        source={HOJA}
+        height="165px"
+      />
+      <Image
+        className='corona-derecha'
+        source={CDERECHA}
+        height="400px"
+      />
+      <Image
+        className='hoja-bottom'
+        source={eucalipto}
+        height="150px"
+      />
       <div className='names-container'>
         <Typography
           variant="h1"
@@ -89,7 +94,15 @@ const Home = ({history}) => {
           className="name"
           color="secondary"
         >
-          Nicolas Rivas
+          Nicolás Rivas
+        </Typography>
+      </div>
+      <div className='header-container'>
+        <Typography 
+          color="primary"
+          variant="h4"
+          className='frase3'>
+          ¡ Nos Casamos !
         </Typography>
       </div>
       <div className='dates-container'>
@@ -100,7 +113,7 @@ const Home = ({history}) => {
             variant="h4"
             className='frase3'
           >
-              Sabado
+              Sábado
           </Typography>
           <Divider className='line'/>
         </div>
@@ -166,7 +179,7 @@ const Home = ({history}) => {
                 variant="outlined"
                 onClick={() => window.open(ceremoniaURL)}  
               >
-                Ver Ubicacion
+                Ver Ubicación
               </Button>
           </TimelineContent>
         </TimelineItem>
@@ -184,7 +197,7 @@ const Home = ({history}) => {
                 color="secondary"
                 variant="h4"
               >
-                Recepcion
+                Recepción
               </Typography>
               <Typography
                 color="primary"
@@ -196,7 +209,7 @@ const Home = ({history}) => {
                 variant="outlined"
                 onClick={() => window.open(fiestaURL)}  
               >
-                Ver Ubicacion
+                Ver Ubicación
               </Button>
           </TimelineContent>
         </TimelineItem>
@@ -248,13 +261,13 @@ const Home = ({history}) => {
           color="primary"
           variant="h5"
           sx={{ textAlign: 'center', marginBottom: '1rem' }}>
-          Algunos nos han preguntado sobre nuestros deseos de regalos, y aunque su presencia es lo más valioso para nosotros, si desean hacernos un regalo, lo apreciaríamos mucho. 
+          Algunos nos han preguntado sobre nuestros deseos de regalos, y aunque su presencia es lo más valioso para nosotros, si desean obsequiarnos algo, lo apreciaríamos mucho. 
         </Typography>
         <Button
           variant="contained"
           onClick={() => window.open(gonzalezGimenez)}
         >
-          Gonzalez Gimenez
+          González Giménez
         </Button>
 
         <Button
@@ -296,7 +309,7 @@ const Home = ({history}) => {
       <div class="item">
         <div class="polaroid">
           <img src={pedido} alt='nico&ruth'/>
-          <div class="caption">2021</div>
+          <div class="caption">2022</div>
         </div>
       </div>
       <div className='frases-container'>
@@ -304,7 +317,7 @@ const Home = ({history}) => {
           className="frase"
           variant='subtitle1'
         >
-          Tres cosas duraran para siempre: la fe, la esperanza y el amor.
+          Tres cosas duraran para siempre: la fé, la esperanza y el amor.
           Pero la mayor de todas es el AMOR.
           1 corintios 18:13
         </Typography>

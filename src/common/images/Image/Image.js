@@ -1,6 +1,5 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import classnames from 'classnames';
 import Spinner from 'common/statusIndicators/Spinner';
 
 
@@ -42,7 +41,7 @@ const Image = (props) => {
         alt={props.alt}
         style={imageStyle}
         onLoad={() => setImgLoaded(true)}
-        className={classnames({ 'd-none': !imgLoaded })}
+        className={props.className}
       />
     </div>
   );
@@ -50,6 +49,7 @@ const Image = (props) => {
 
 Image.propTypes = {
   alt: PropTypes.string,
+  className: PropTypes.string,
   height: PropTypes.string,
   source: PropTypes.any,
   width: PropTypes.string,

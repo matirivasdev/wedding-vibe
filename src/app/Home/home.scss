@@ -1,9 +1,31 @@
 .home-container{
-  margin-top: 0rem;
+  margin-top: 4cqh;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: auto;
+  gap: 1rem;
+
+  .hoja-top {
+    position: absolute;
+    top: -17px;
+    left: -45px;
+  }
+
+  .corona-derecha {
+    position: absolute;
+    top: 130px;
+    right: -150px;
+    z-index: 0;
+  }
+
+  .hoja-bottom {
+    position: absolute;
+    bottom: -10px;
+    left: -50px;
+    z-index: 0;
+    opacity: 0.7;
+  }
 
   .item {
     width: 400px;
@@ -75,6 +97,7 @@
     align-items: center;
     max-width: 250px;
     margin-bottom: 1rem;
+    z-index: 1000;
 
     .name {
       text-align: center;
@@ -89,14 +112,13 @@
   }
 
   .frases-container {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 4rem;
     max-width: 400px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    z-index: 1000;
 
     .frase {
       flex-wrap: wrap;
@@ -121,7 +143,6 @@
       text-align: center;
     }
   }
-
   .dates-container {
     display: flex;
     flex-direction: column;
