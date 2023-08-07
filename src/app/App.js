@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material';
 
 import theme from 'config/theme';
@@ -9,11 +9,11 @@ import Routes from './Routes';
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes />
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   </ThemeProvider>
 );
 

@@ -274,7 +274,7 @@ const Ranr = () => {
                 color="primary"
                 variant="subtitle1"
               >
-                CI 4716567
+                CI 4703945
               </Typography>
             </div>
           }
