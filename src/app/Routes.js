@@ -5,20 +5,19 @@ import { SuspenseFallback } from 'common/statusIndicators';
 import * as NAVIGATION from 'config/navigation';
 
 
+const Ranr = React.lazy(() => import('./Ranr'));
 const Home = React.lazy(() => import('./Home'));
-const Secondary = React.lazy(() => import('./Secondary'));
 
 const Routes = () => (
   <React.Suspense fallback={<SuspenseFallback />}>
     <Switch>
       <Route
-        path={NAVIGATION.SECONDARY}
-        component={Secondary}
+        path={NAVIGATION.RANR}
+        component={Ranr}
       />
       <Route
         path={NAVIGATION.HOME}
         component={Home}
-        exact={true}
       />
     </Switch>
   </React.Suspense>

@@ -34,7 +34,7 @@ const Image = (props) => {
       style={divStyle}
     >
       {!imgLoaded && (
-        <Spinner size="lg" />
+        <Spinner size={24} />
       )}
       <img
         src={props.source}

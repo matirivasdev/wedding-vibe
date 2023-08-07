@@ -1,2 +1,2 @@
 export const HOME = '/';
-export const SECONDARY = '/secondary';
+export const RANR = '/ruth&nico';
