@@ -59,6 +59,11 @@ const Ranr = () => {
             className='frase3'>
             ¡ Nos Casamos !
           </Typography>
+          <Typography 
+            color="primary"
+            variant="h6">
+            y queremos celebrarlo contigo
+          </Typography>
         </div>
         <div className='dates-container'>
           <div className='dia'>
@@ -108,18 +113,17 @@ const Ranr = () => {
                 />
                 <Typography
                   color="secondary"
-                  variant="h4"
+                  variant="h5"
                 >
                   Ceremonia
                 </Typography>
                 <Typography
                   color="primary"
-                  variant="subtitle1"
+                  variant="h4"
                 >
                   Parroquia Virgen del Carmen 
                 </Typography>
                 <Typography
-                  color="primary"
                   variant="subtitle1"
                 >
                   A las 15:00 Hs
@@ -144,15 +148,20 @@ const Ranr = () => {
                 />
                 <Typography
                   color="secondary"
-                  variant="h4"
+                  variant="h5"
                 >
                   Recepción
                 </Typography>
                 <Typography
                   color="primary"
+                  variant="h4"
+                >
+                  Terrazas del Bosque
+                </Typography>
+                <Typography
                   variant="subtitle1"
                 >
-                  Terminada la ceremonia, te esperamos en Terrazas del Bosque
+                  Al termino de la ceremonia
                 </Typography>
                 <Button
                   variant="outlined"
@@ -167,7 +176,7 @@ const Ranr = () => {
         <div className='frases-container'>
           <Image 
             source={elegante}
-            height="96px"
+            height="120px"
           />
           <Typography
             color="secondary"
