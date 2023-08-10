@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c9e2300e.css",
-    "main.js": "/static/js/main.241091b8.js",
+    "main.js": "/static/js/main.bde66e56.js",
     "static/css/222.3e2d705f.chunk.css": "/static/css/222.3e2d705f.chunk.css",
-    "static/js/222.eeb5f014.chunk.js": "/static/js/222.eeb5f014.chunk.js",
+    "static/js/222.8a371292.chunk.js": "/static/js/222.8a371292.chunk.js",
     "static/css/921.fba6fd1d.chunk.css": "/static/css/921.fba6fd1d.chunk.css",
     "static/js/921.565ffc9c.chunk.js": "/static/js/921.565ffc9c.chunk.js",
     "static/js/561.181b7ae8.chunk.js": "/static/js/561.181b7ae8.chunk.js",
@@ -24,15 +24,15 @@
     "static/media/church2.png": "/static/media/church2.8058b62f01a4ebe6d965.png",
     "index.html": "/index.html",
     "main.c9e2300e.css.map": "/static/css/main.c9e2300e.css.map",
-    "main.241091b8.js.map": "/static/js/main.241091b8.js.map",
+    "main.bde66e56.js.map": "/static/js/main.bde66e56.js.map",
     "222.3e2d705f.chunk.css.map": "/static/css/222.3e2d705f.chunk.css.map",
-    "222.eeb5f014.chunk.js.map": "/static/js/222.eeb5f014.chunk.js.map",
+    "222.8a371292.chunk.js.map": "/static/js/222.8a371292.chunk.js.map",
     "921.fba6fd1d.chunk.css.map": "/static/css/921.fba6fd1d.chunk.css.map",
     "921.565ffc9c.chunk.js.map": "/static/js/921.565ffc9c.chunk.js.map",
     "561.181b7ae8.chunk.js.map": "/static/js/561.181b7ae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9e2300e.css",
-    "static/js/main.241091b8.js"
+    "static/js/main.bde66e56.js"
   ]
 }
