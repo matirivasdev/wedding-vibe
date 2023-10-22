@@ -7,10 +7,10 @@ import { Image } from 'common/images';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PauseIcon from '@mui/icons-material/Pause';
 
-import CHURCH from 'assets/ranr/church2.png';
-import CONFETI from 'assets/ranr/confetti.png';
-import WHATSAPP from 'assets/ranr/whatsapp.png';
-import REGALO from 'assets/ranr/gift-box.png';
+import CHURCH from 'assets/mtmr/church2.png';
+import CONFETI from 'assets/mtmr/confetti.png';
+import WHATSAPP from 'assets/mtmr/whatsapp.png';
+import REGALO from 'assets/mtmr/gift-box.png';
 import amoSoltantoTe from 'assets/mtmr/amo-soltanto-te.mp3';
 import boda from 'assets/mtmr/boda.jpeg';
 import rio from 'assets/mtmr/rio.jpeg';
@@ -18,7 +18,7 @@ import HOJA from 'assets/mtmr/hoja.png';
 import HOJA2 from 'assets/mtmr/hoja2.png';
 import ESTRELLA from 'assets/mtmr/estrellas.png';
 import foto2 from 'assets/mtmr/foto2.JPG';
-import elegante from 'assets/ranr/elegante.png';
+import elegante from 'assets/mtmr/elegante.png';
 
 
 const Mtmr = () => {
