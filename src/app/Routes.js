@@ -4,16 +4,15 @@ import { Switch, Route } from 'react-router-dom';
 import { SuspenseFallback } from 'common/statusIndicators';
 import * as NAVIGATION from 'config/navigation';
 
-
-const Ranr = React.lazy(() => import('./Ranr'));
+const Mtmr = React.lazy(() => import('./Mtmr'));
 const Home = React.lazy(() => import('./Home'));
 
 const Routes = () => (
   <React.Suspense fallback={<SuspenseFallback />}>
     <Switch>
       <Route
-        path={NAVIGATION.RANR}
-        component={Ranr}
+        path={NAVIGATION.MTMR}
+        component={Mtmr}
       />
       <Route
         path={NAVIGATION.HOME}

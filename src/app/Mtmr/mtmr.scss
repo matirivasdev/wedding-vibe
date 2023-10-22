@@ -1,0 +1,231 @@
+@import "src/styles/variables";
+
+@font-face {
+  font-family: "amsterdam-one";
+  src: url('/assets/mtmr/AmsterdamOne.ttf');
+}
+
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  html, body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+.wrapper {
+  background-color: #F7F6F1;
+  background-image: url('/assets/mtmr/nube.png');
+  background-position: center center no-repeat;
+  z-index: 0;
+  overflow: auto;
+
+  .home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    gap: 1rem;
+    z-index: 1;
+
+    .hoja-top {
+      position: absolute;
+      top: -17px;
+      left: -45px;
+      z-index: 1;
+    }
+
+    .estrella {
+      position: absolute;
+      top: 20px;
+      z-index: 1;
+    }
+
+    .hoja-bottom {
+      position: absolute;
+      top: 250px;
+      right: -40px;
+      z-index: 1;
+      opacity: 0.7;
+    }
+
+    .item {
+      width: 400px;
+      max-width: 90% ;
+      display: inline-block;
+      margin-top: 2rem;
+      filter: grayscale(100%);
+
+      &:hover {
+        filter: none;
+        transform: scale(1, 1) rotate(0deg) !important;
+        transition: all 0.35s;
+      }
+
+      .polaroid {
+        background: #fff;
+        padding: 1rem;
+        box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+
+        &:before {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          transition: all 0.35s;
+        }
+
+        &:nth-of-type(1) {
+          transform: scale(0.8, 0.8) rotate(5deg);
+          transition: all 0.35s;
+
+          &:before {
+            transform: rotate(6deg);
+            bottom: 30px;
+            right: 12px;
+            box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+          }
+        }
+
+        &:hover {
+          filter: none;
+          transform: scale(1, 1) rotate(0deg) !important;
+          transition: all 0.35s;
+
+          &:before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            transform: rotate(0deg);
+            box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
+            transition: all 0.35s;
+          }
+        }
+        
+        img{
+          max-width: 100%;
+          height: auto;
+        }
+        .caption {
+          font-size: 1.8rem;
+          text-align: center;
+          line-height: 2em;
+        }
+      }
+    }
+
+    .marcia-mati-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      background-image: url('/assets/mtmr/anillo.jpg');
+      background-position: center center;
+      background-size: cover;
+
+      .names-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 250px;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+        z-index: 1000;
+        -webkit-text-stroke: 0.5px black;
+  
+        .name {
+          text-align: center;
+          margin: 0;
+          font-size: 54px;
+          font-family: "amsterdam-one";
+          color: white;
+          line-height: 2.5;
+        }
+      }
+    }
+
+    .header-container {
+      margin-top: 7rem;
+      .frase3 {
+        font-size: 40px;
+      }
+      h6 {
+        text-align: center;
+      }
+    }
+
+    .frases-container {
+      margin: 4rem;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      z-index: 1000;
+
+      .frase {
+        flex-wrap: wrap;
+        text-align: center;
+        font-family: "Sofia";
+        font-size: 24px;
+      }
+      .frase2 {
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 32px;
+      }
+
+      .frase3 {
+        flex-wrap: wrap;
+        text-align: center;
+        font-family: "Noto Serif Vithkuqi";
+      }
+
+      .center {
+        flex-wrap: wrap;
+        text-align: center;
+      }
+    }
+
+    .dates-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      z-index: 1000;
+
+      .dia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        .line {
+          width: 100px;
+          border-bottom-width: medium;
+        }
+      }
+
+      .full-line {
+        width: 100%;
+        border-bottom-width: medium;
+        margin-top: 1rem;
+      }
+
+      .fecha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}

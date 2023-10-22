@@ -17,6 +17,7 @@
     "react-router-dom": "5.3.4",
     "react-scripts": "5.0.1",
     "react-sound": "^1.2.0",
+    "react-to-print": "^2.14.13",
     "sass": "^1.64.1"
   },
   "scripts": {
